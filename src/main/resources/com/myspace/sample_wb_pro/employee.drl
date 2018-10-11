@@ -1,2 +1,9 @@
+com.myspace.sample_wb_pro.Employee( )
 package com.myspace.sample_wb_pro;
 
+rule "Check"
+when
+Employee()
+then
+System.out.println("Employee Object Created");
+end
